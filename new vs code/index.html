@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+   <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                   <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="women.jpg" class="image-small circle-img">
+            <h1>russia music</h1>
+            <p>jazz </p>
+           <audio controls id="song"> 
+            <source src="music.mp3" type="audio/mpeg">
+           </audio>
+           <input type="range" value="0" id="progress">
+           
+           <div class="controls">
+            <div><i class="fa-solid fa-backward"></i></div>
+               <div><i class="fa-solid fa-play"></i></div>
+                  <div><i class="fa-solid fa-forward"></i></div>
+           </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+
+</html>

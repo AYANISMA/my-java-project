@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-player{
+    width: 400px;
+    background: #ffe0e5;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* NAV ICONS */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.circle i{
+    font-size: 18px;
+    color: #333;
+}
+
+/* IMAGE */
+.image-small{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+/* TEXT */
+.music-player h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.music-player p{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* AUDIO */
+audio{
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* RANGE */
+#progress{
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* CONTROLS */
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.controls div{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+    cursor: pointer;
+}
+
+.controls div i{
+    font-size: 22px;
+    color: #f53192;
+}
+
+.controls div:nth-child(2){
+    transform: scale(1.3);
+    background: #f53192;
+}
+
+.controls div:nth-child(2) i{
+    color: #fff;
+}
+body{
+    background: red;
+}
